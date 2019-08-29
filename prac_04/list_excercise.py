@@ -8,6 +8,14 @@ def main():
     print("The smallest number is ", min(list_of_numbers))
     print("The largest number is ", max(list_of_numbers))
     print("The average of the number is ", sum(list_of_numbers)/len(list_of_numbers))
+    authorised_usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface',
+                 'BaseStdIn', 'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer',
+                 'bob']
+    username = input("Enter the username : ")
+    if username in authorised_usernames:
+        print("Access Granted")
+    else:
+        print("Access Denied")
 
 
 main()
