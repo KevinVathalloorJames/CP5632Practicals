@@ -1,9 +1,9 @@
 words_for_count = {}
 text = input("Text: ")
 
-words = text.split()
+words_splitted = text.split()
 
-for words in words:
+for words in words_splitted:
     key = words_for_count.get(words, 0)
     words_for_count[words] = key+1
 
