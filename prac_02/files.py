@@ -13,6 +13,7 @@ out_file.close()
 file_values = open("numbers", 'r')
 number_1 = int(file_values.readline())
 number_2 = int(file_values.readline())
+print(number_1, "a" )
 file_values.close()
 print("The sum is: ", number_1+number_2)
 
