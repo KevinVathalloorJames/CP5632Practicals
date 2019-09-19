@@ -11,3 +11,4 @@ def main():
     for language in language:
         if language.is_dynamic():
             print(language.program_name)
+

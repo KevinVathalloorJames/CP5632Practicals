@@ -25,6 +25,9 @@ def run_test():
     for language in languages:
         if language.is_dynamic():
             print(language.program_name)
+        else:
+            print("The static program are:")
+            print(language.program_name)
 
 
 if __name__ == "__main__":
