@@ -1,0 +1,20 @@
+BoxLayout:
+    orientation:'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: miles
+            text : '1'
+            on_text: app.handle_calculate()
+        BoxLayout:
+            orientation: 'vertical'
+            Button:
+                text: 'Up'
+                on_press : app.handle_increment(1)
+            Button:
+                text: 'Down'
+                on_press : app.handle_increment(-1)
+    Label:
+        id: output_label
+        text: '1.60934'
+        color: (1,1,0,1)
