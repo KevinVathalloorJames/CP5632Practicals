@@ -9,6 +9,7 @@ from kivy.lang import Builder
 from kivy.properties import StringProperty
 from kivy.properties import ListProperty
 
+
 __author__ = 'Lindsay Ward'
 STATES = {'QLD': "Queensland", 'NSW': "New South Wales", 'VIC': "Victoria", 'WA': "Western Australia",
           'TAS': "Tasmania", 'NT': "Northern Territory", 'SA': "South Australia", 'ACT': "Canberra",

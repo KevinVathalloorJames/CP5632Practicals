@@ -7,7 +7,7 @@ MILE_KM = 1.60934
 class MileConverter(App):
 
     def build(self):
-        Window.size = (300, 200)
+        Window.size = (500, 500)
         self.title = "Convert Miles to Kilometres"
         self.root = Builder.load_file('m_km.kv')
         return self.root
